@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<!-- 22/9/21 - Nev Goodyer - Page revised from last year's cut and paste from Word, with it's hundreds of errors.
+    Yr12 SDD at Blackwattle Bay - starting in term 4 of 2021, graduating at the end of 2022
+        A simple index file to provide links to the version files.
+    -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>DB Normalisation with Species</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        body {
+            background-color: rgb(229,230,243); /*  #E5E6F3  */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #000;
+        }
+
+        th, td {
+            /*text-align: center;*/
+            padding: 10px;
+            font-size: 16pt;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Normalising of the Species DB used for the Grok SQL module.</h1>
+    <h2>Normalisation is done using Microsoft Access, making use of&nbsp; its schema page and the query builder.</h2>
+    <h2>There is no direct code in the repository, but there are links below to DB versions and Word &quot;How to&quot; files.</h2>
+    <h2>1st Normal form involves atomising the scientific name into Genus and Species</h2>
+    <p>2nd Normal form involves the creation of tables </p>
+    
+    <h3><b><span style="color:red">The repository for this site is at: </span></b><a href="https://github.com/bwattle/arrRecords" title="Link to repository" target="_blank">https://github.com/bwattle/arrRecords</a></h3>
+This site gives practical examples of the NSW Information Processing and Design <a href="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/technologies/information-processes-technology-syllabus" title="Link to Syllabus" target="_blank">syllabus</a>, section 9.2 (Databases)&nbsp; <br/>
+</>
+Some tasks correspond to the theory in both the <a href="https://www.pearson.com/store/p/heinemann-information-processes-and-technology-hsc-course/GPROG_A103000296433_learnerau-availability/9780864625120" title="Link to Powers Text" target="_blank">Powers</a> and <a href="http://www.pedc.com.au/ipt.php" title="Link to Davis Text" target="_blank">Davis</a> Texts for this subject<br/>
+<p>This project was inspired by students working on the <a href="https://groklearning.com/course/intro-sql-1/" title="Link to Grok SQL" target="_blank">Grok SQL</a> course, which gives practical examples of SQL for filtering and ordering. </p>
+    From the initial flat file (single table):&nbsp;
+    <br />
+    <ul>
+        <li>we re-create some of the queries from the <a href="https://groklearning.com/course/intro-sql-1/" title="Link to Grok SQL" target="_blank">Grok SQL</a> course, using the Access query builder and SQL view.</li>
+        <li>create a report with multiple grouping levels.</li>
+        <li></li>
+    </ul>
+    <p>
+        Access (.accdb) and Word &quot;How to&quot; files are stored in the &quot;Releases&quot; section of GitHub. 
+        Suggestions regarding errors would be gratefully received at: <a href="mailto:neville.goodyer@det.nsw.edu.au">neville.goodyer@det.nsw.edu.au</a>. </p>
+    <table>
+        <tr>
+            <td><b>Version and link</b></td>
+            <td><b>Notes</b></td>
+        </tr>
+        <tr>
+            <td>Pascal<br />
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/Pas/StDB-v105.pas"
+                    title="Link to Pascal v1.05 code" target="_blank">code</a> <br />
+                <br />
+            </td>
+            <td>Species spreadsheet</td>
+        </tr>
+        <tr>
+            <td>Python<br />
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/Py/StDB-105.py"
+                    title="Link to Python v1.05 zip of exe" target="_blank">code</a> <br />
+            </td>
+            <td>Species database</td>
+        </tr>
+        <tr>
+            <td>JavaScript<br />
+                v1.05<br />
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/JS/StDB-v105.html"
+                     title="Link to JavaScript v1.05 code" target="_blank">code</a>
+                <br />
+                <br />                
+              <a href="JS/StDB-v105.html" title="Link to JavaScript v1.05 page" target="_blank">page</a><br />              
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            
+    </table>
+    <p>
+        In Chrome on PC, when you download a release above, click &quot;Keep&quot; as shown below: 
+    </p>
+    <p>
+        <img alt="Image of an arrow pointing to the 'Keep' option"
+            height="91" src="images/clip_image001.png" width="384" />
+    </p>
+    <p>
+        If you see this message, click &quot;More Info&quot;: 
+    </p>
+    <p>
+        <img alt="Image of 'Windows protected your PC' dialog box. Use the 'More info' option "
+            height="100" src="images/clip_image002.png" width="391" />
+    </p>
+    <p>
+        And then &quot;Run anyway&quot;: 
+    </p>
+    <p>
+        <img alt="Image of 'Windows protected your PC' dialog box. Use the 'Run anyway' option "
+            height="359" src="images/clip_image003.png" width="384" />
+    </p>    
+</body>
+</html>
